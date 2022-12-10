@@ -25,3 +25,4 @@ def second_prime_not_optimal(n:int):
     number_of_primes -= 1
     
     return number_of_primes
+    
