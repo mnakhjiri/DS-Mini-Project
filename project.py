@@ -2,7 +2,8 @@ from datetime import datetime
 import random
 import matplotlib.pyplot as plt
 from first import prime_first
-from first import prime_first_non_optimal
+from first import prime_first_not_optimal
+from second import *
 array = [1,2,3,4,5,6,7,8,9,10,
          20,30,40,50,60,70,80,90,100,
          200,300,400,500,600,700,800,900,1000,
@@ -31,5 +32,5 @@ def create_plot(function_array):
     plt.legend()
     plt.savefig(f'plots.png')
     
-function_array = [prime_first_non_optimal , prime_first]
+function_array = [prime_first_not_optimal , prime_first , second_prime , second_prime_not_optimal]
 create_plot(function_array)

@@ -12,7 +12,7 @@ def prime_first(n:int):
     
     return number_of_primes
 
-def prime_first_non_optimal(n:int):
+def prime_first_not_optimal(n:int):
     number_of_primes = n
     for i in range(1,n+1):
         prime = True
@@ -39,5 +39,5 @@ def prime_first_non_optimal(n:int):
 # print("Optical : " + str(datetime.now() - now))
 
 # now = datetime.now()
-# print(prime_first_non_optimal(100))
+# print(prime_first_not_optimal(100))
 # print("Not Optical : " + str(datetime.now() - now))
